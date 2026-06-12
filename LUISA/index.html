@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nossa História</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════
+     HERO  — troque os nomes e a data
+════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">12 de junho · Dia dos Namorados</p>
+    <h1>
+      Nos<br>
+      <span>Filipe &amp; Luisa</span>
+    </h1>
+  </div>
+  <div class="hero-scroll">↓</div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     MENSAGEM PRINCIPAL
+════════════════════════════════════════ -->
+<section class="intro">
+  <div class="container">
+    <p class="section-label reveal">Para você</p>
+    <h2 class="section-title reveal">
+      Cada dia ao <em>seu lado</em><br>é o melhor dia
+    </h2>
+
+    <blockquote class="intro-quote reveal">
+      "Não existe distância que apague o que sinto por você.
+      Você é meu lugar favorito no mundo."
+    </blockquote>
+
+    <p class="section-text reveal">
+      Obrigado por ser minha melhor companhia e meu amor.
+    </p>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     GALERIA  — substitua os src pelas suas fotos
+     Para usar fotos locais: src="foto1.jpg"
+════════════════════════════════════════ -->
+<section class="gallery-section">
+  <div class="container">
+    <h2 class="section-title reveal">Uma fotinha sua kkk <em></em></h2>
+
+    <div class="gallery-single reveal">
+      <div class="gallery-item" onclick="openLightbox(this)">
+        <img src="luisa.jpeg" alt="Foto 1" />
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- ═══════════════════════════════════════
+     MOTIVOS — edite os textos livremente
+════════════════════════════════════════ -->
+<section class="reasons-section">
+  <div class="container">
+    <p class="section-label reveal">Por que te amo</p>
+    <h2 class="section-title reveal">Algumas das infinitas razões</h2>
+
+    <div class="reasons-grid reveal">
+
+      <div class="reason-item">
+        <span class="reason-num">01</span>
+        <div class="reason-text">
+          <strong>Seu Jeito de Rir</strong>
+        </div>
+      </div>
+
+      <div class="reason-item">
+        <span class="reason-num">02</span>
+        <div class="reason-text">
+          <strong>Sua Compreensão</strong>
+        </div>
+      </div>
+
+      <div class="reason-item">
+        <span class="reason-num">03</span>
+        <div class="reason-text">
+          <strong>Seu Cuidado</strong>
+
+        </div>
+      </div>
+
+      <div class="reason-item">
+        <span class="reason-num">04</span>
+        <div class="reason-text">
+          <strong>Sua Presença</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════
+     FECHAMENTO
+════════════════════════════════════════ -->
+<section class="closing">
+  <div class="container">
+    <span class="closing-heart">♥</span>
+    <p class="section-label reveal">Hoje e sempre</p>
+    <h2 class="section-title reveal">
+      Feliz Dia dos<br><em>Namorados</em>
+    </h2>
+    <p class="section-text reveal" style="margin: 20px auto 0; text-align: center;">
+      Que esse dia seja só mais um lembrete do amor que existe entre nós, e que cada momento juntos seja tão especial quanto hoje.
+    </p>
+    <p class="closing-sig reveal">Com todo o meu amor, Filipe ♡</p>
+  </div>
+</section>
+
+
+<footer>
+  ♥
+</footer>
+
+
+<!-- ═══════════════════════════════════════
+     LIGHTBOX
+════════════════════════════════════════ -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+  <img id="lightbox-img" src="" alt="" />
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
